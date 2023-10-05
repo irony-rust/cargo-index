@@ -1,4 +1,4 @@
-Alexandrie crate index
+Rust crate index
 ======================
 
 This is the crate index for the [Alexandrie] alternative crate registry instance running on <https://crates.polomack.eu>.
