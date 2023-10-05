@@ -16,12 +16,11 @@ If you want to use this index, you can follow these steps:
 - Edit or create the `~/.cargo/config` file, and add the following code:
 ```toml
 [registries.alexandrie]
-index = "https://github.com/Hirevo/alexandrie-index"
+index = "https://github.com/irony-rust/cargo-index"
 ```
 - Then, run `cargo login --registry alexandrie` and enter your author token.
 - You can now use the registry using `cargo publish --registry alexandrie` or `cargo search --registry alexandrie`
 
-[Alexandrie]: https://github.com/Hirevo/alexandrie
-[crates.polomack.eu]: https://crates.polomack.eu
+[Crates]: https://github.com/irony-rust/cargo-index
 [crates.io]: https://crates.io
 [Cargo's Alternative Registries RFC]: https://github.com/rust-lang/rfcs/blob/master/text/2141-alternative-registries.md#registry-index-format-specification
